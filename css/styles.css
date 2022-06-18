@@ -85,6 +85,26 @@ ul {
 
 /* Все */
 
+.list {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;     
+    letter-spacing: 0.06em;    
+    color: #212121;
+
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+    
+}
 
 
 /* Кнопки */
@@ -98,7 +118,6 @@ ul {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    font-size: 16px;
     padding: 6px, 22px;
     color: #212121;
     background-color: #F5F4FA;
@@ -164,11 +183,12 @@ ul {
  }
 
 
- .contact-type {
+ .contact-type1 {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;     
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
  }
