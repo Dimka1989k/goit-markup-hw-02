@@ -1,0 +1,174 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+
+
+
+}
+
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+
+}
+
+
+
+
+
+/* Шапка сайта */
+
+.logo {
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+
+
+}
+
+.logo-studio {
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+
+}
+
+
+
+.menu-link {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+
+
+
+}
+
+.menu-link:hover {
+    color: #2196F3;
+}
+
+.contact-type {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+
+
+}
+
+.contact-type:hover {
+    color: #2196F3;
+
+
+}
+
+
+/* Все */
+
+
+
+/* Кнопки */
+
+
+
+.button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    padding: 6px, 22px;
+    color: #212121;
+    background-color: #F5F4FA;
+    border: 1px solid transparent;
+    border-radius: 0.1em;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+
+
+ /* Подвал */
+
+ .footer {
+     width: 1600px;
+     height: 252px;
+     left: 0px;
+     top: 2097px;
+     background: #2F303A;
+ }
+
+
+ .home {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+     text-decoration: none;
+
+ }
+
+
+
+ .logo1 {
+     font-style: normal;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;     
+     text-decoration: none;
+
+
+ }
+
+ .logo-studio1 {
+
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 31px;
+     letter-spacing: 0.03em;
+     color: #2196F3;
+     text-decoration: none;
+
+ }
+
+
+ .contact-type {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;     
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+ }
