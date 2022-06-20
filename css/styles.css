@@ -3,8 +3,7 @@
 
 
 .body {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    
     background-color: #FFFFFF;
 
 
@@ -28,10 +27,10 @@ ul {
 /* Шапка сайта */
 
 .logo {
-
+    font-family: 'Raleway', sans-serif;    
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
@@ -39,7 +38,7 @@ ul {
 
 }
 
-.logo-studio {
+.logo-studio {   
 
     font-weight: 700;
     font-size: 26px;
@@ -53,7 +52,7 @@ ul {
 
 
 .menu-link {
-
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -70,7 +69,7 @@ ul {
 }
 
 .contact-type {
-
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -89,26 +88,47 @@ ul {
 
 /* Шапка */
 .hat {
-    font-size: 44px;
+    
     background-color: #2F303A;
 
 }
 
 .solution {
-
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;     
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
     color: #FFFFFF;
+    
 
 }
 
 
+
+
+
+
 .button-color {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 32px;
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
-    padding: 10px, 32px;
+    line-height: 30px;      
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;         
     color: #FFFFFF;
     background-color: #2196F3;
     border: 1px solid transparent;
     border-radius: 0.1em;
     cursor: pointer;
+    text-decoration:none;
 
 
 }
@@ -121,6 +141,7 @@ ul {
 
 
 .title {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -131,6 +152,7 @@ ul {
 }
 
 .text {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -143,7 +165,7 @@ ul {
 /* Чем мы занимаемся */
 
 .work-position {
-
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -160,7 +182,7 @@ ul {
 }
 
 .team-list {
-
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -183,19 +205,26 @@ ul {
 }
 
 .name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+    
+    letter-spacing: 0.03em;    
     color: #212121;
 }
 
 
 
-.job-title {
-
+.job-title { 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    
+    letter-spacing: 0.03em;    
     color: #757575;
 }
 
@@ -226,21 +255,23 @@ ul {
 /* Все */
 
 .list {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;     
+    line-height: 36px;           
     letter-spacing: 0.06em;    
     color: #212121;
 
 }
 
 .text {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+    line-height: 30px;       
+    letter-spacing: 0.03em;    
     color: #757575;
 
     
@@ -252,13 +283,14 @@ ul {
 
 
 .button {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    padding: 6px, 22px;
+    padding: 6px 22px;
     color: #212121;
     background-color: #F5F4FA;
     border: 1px solid transparent;
@@ -277,29 +309,27 @@ ul {
 
  /* Подвал */
 
- .footer {
-     width: 1600px;
-     height: 252px;
-     left: 0px;
-     top: 2097px;
+ .footer {     
      background: #2F303A;
  }
 
 
  .home {
-     font-style: normal;
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 24px;
-     letter-spacing: 0.03em;
-     color: #FFFFFF;
-     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;    
+    color: #FFFFFF;
+    text-decoration: none;
 
  }
 
 
 
  .logo1 {
+     font-family: 'Raleway', sans-serif;
      font-style: normal;
      font-weight: 700;
      font-size: 26px;
@@ -312,7 +342,7 @@ ul {
  }
 
  .logo-studio1 {
-    
+    font-family: 'Raleway', sans-serif;     
      font-weight: 700;
      font-size: 26px;
      line-height: 31px;
@@ -324,6 +354,7 @@ ul {
 
 
  .contact-type1 {
+        font-family: 'Roboto', sans-serif; 
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
